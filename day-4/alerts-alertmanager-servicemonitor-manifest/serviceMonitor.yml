@@ -3,9 +3,9 @@ kind: ServiceMonitor
 metadata:
   labels:
     app: a-service-service-monitor
-    release: monitoring
+    release: observability
   name: a-service-service-monitor
-  namespace: monitoring
+  namespace: observability
 spec:
   jobLabel: job
   endpoints:
