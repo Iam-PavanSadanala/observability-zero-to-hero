@@ -4,7 +4,7 @@ metadata:
   name: main-rules-alert-config
   namespace: observability
   labels:
-    release: monitoring
+    release: observability
 spec:
   route:
     repeatInterval: 30m
